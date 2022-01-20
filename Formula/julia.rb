@@ -79,7 +79,7 @@ class Julia < Formula
     depends_on "libunwind"
   end
 
-  conflicts_with "juliaup", because: "both install `julia` binaries"
+  conflicts_with "juliaup", because: "both install `julia binaries"
 
   fails_with gcc: "5"
 
